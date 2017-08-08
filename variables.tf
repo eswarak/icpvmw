@@ -1,0 +1,23 @@
+# Variables
+variable "vsphere_vcenter" { default = "x.x.x.x"}
+variable "vsphere_user" { default = "xxxxx" }
+variable "vsphere_password" { default = "xxxxx" }
+variable "vsphere_datacenter" { default = "xxxxx" }
+variable "vsphere_cluster" { default = "xxxxxx" }
+variable "vsphere_resourcepool" { default = "xxxxxx" }
+variable "instance_count" { default = "5" }
+variable "datastore" { default = "xxxxxx"}
+variable "template" { default = "xxxxxxx" }
+variable "vcpu" { default = "2" }
+variable "memory" { default = "8192" }
+variable "disk" { default = "100" }
+variable "vmdns1" { default = "x.x.x.x" }
+variable "vmdns2" { default = "x.x.x.x" }
+variable "vmnetlabel" { default = "xxxxxx" }
+variable "vmaddrbase" { default = "x.x.x." }
+variable "vmaddr_netmask" { default = "16" }
+variable "vmaddr_gateway" { default = "x.x.x.x" }
+variable "vmaddr_start" { default = "10" }
+variable "domain" { default = "xxxx.xxx" }
+variable "projectname" { default = "xxxxx" }
+variable "mysshkey" { default = "~/.ssh/xxxx.rsa" }
